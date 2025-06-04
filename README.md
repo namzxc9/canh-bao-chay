@@ -4,6 +4,16 @@ Hệ thống cảnh báo cháy thông minh được thiết kế để phát hi�
 
 Mục tiêu của đề tài là mô phỏng một hệ thống giám sát cháy đơn giản, giá thành thấp nhưng có độ tin cậy cao, có thể áp dụng trong gia đình, văn phòng hoặc trường học.
 
+🧠 Chức năng chính
+Chức năng	Mô tả
+| Chức năng                               | Mô tả                                                                                        |
+| --------------------------------------- | -------------------------------------------------------------------------------------------- |
+|  Giám sát nhiệt độ và khói              | Sử dụng cảm biến nhiệt độ và cảm biến khói MQ-2 để phát hiện tình trạng bất thường.          |
+|  Phát hiện ngọn lửa                     | Dùng cảm biến lửa để nhận biết ánh sáng từ đám cháy trong môi trường xung quanh.             |
+|  Gửi cảnh báo Telegram                  | Khi dữ liệu vượt ngưỡng nguy hiểm, hệ thống sẽ gửi tin nhắn Telegram cảnh báo ngay lập tức.  |
+|  Hiển thị dữ liệu trên giao diện web    | Tất cả cảnh báo được hiển thị trên website với thời gian, tầng, nhiệt độ, khói và lửa.       |
+|  Kết nối không dây (Wi-Fi)              | Hệ thống sử dụng ESP32 kết nối Wi-Fi, truyền dữ liệu về server Flask thông qua HTTP.         |
+
 CÔNG NGHỆ SỬ DỤNG
 
 - Cảm biến khói (MQ-2): Phát hiện khí gas, khói và hơi dễ cháy trong môi trường. Dữ liệu trả về là mức khói tương đối (analog).
@@ -52,3 +62,16 @@ Trang web hiển thị thông tin cảnh báo gần nhất dưới dạng bảng
 
 Lặp lại chu trình:
 ESP32 tiếp tục đo, gửi dữ liệu mỗi vài giây, hệ thống luôn hoạt động trong thời gian thực.
+
+💡 Mục tiêu mở rộng trong tương lai
+- Tích hợp cơ sở dữ liệu (Firebase, MongoDB...) để lưu lại lịch sử cảnh báo dài hạn.
+
+- Hiển thị biểu đồ thời gian thực theo dõi mức nhiệt độ và khói trong ngày.
+
+- Tự động điều khiển thiết bị chữa cháy, như bật còi, phun nước, hoặc gửi tín hiệu đến hệ thống PCCC.
+
+- Phát triển ứng dụng di động nhận cảnh báo từ Telegram hoặc app riêng.
+
+- Cảnh báo bằng giọng nói thông qua loa mini thay vì chỉ dùng âm thanh đơn.
+
+- Phân tích AI để lọc cảnh báo giả, dự đoán nguy cơ cháy dựa vào mô hình học máy.
