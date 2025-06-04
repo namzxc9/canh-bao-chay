@@ -1,3 +1,6 @@
+<span style="background-color:#e6f0ff; color:#0366d6; padding:4px 8px; border-radius:12px; font-size:90%; margin-right:4px;">fit-dnu</span>
+<span style="background-color:#e6f0ff; color:#0366d6; padding:4px 8px; border-radius:12px; font-size:90%; margin-right:4px;">dainam-university</span>
+
 CẢNH BÁO CHÁY CHO CÁC TÒA NHÀ CAO TẦNG
 
 Hệ thống cảnh báo cháy thông minh được thiết kế để phát hiện và cảnh báo sớm các rủi ro cháy nổ trong không gian sống hoặc làm việc. Dựa trên dữ liệu từ cảm biến khói, nhiệt độ và lửa, hệ thống gửi cảnh báo trực tiếp đến người dùng thông qua giao diện web và Telegram.
