@@ -32,6 +32,10 @@ CÔNG NGHỆ SỬ DỤNG
 
 - Nguồn điện: ESP32 sử dụng nguồn 5V (USB hoặc pin dự phòng), hoạt động độc lập.
 
+SƠ ĐỒ HOẠT ĐỘNG
+
+![image](https://github.com/user-attachments/assets/1ab28bdc-d663-4401-b9a8-26518ff6d497)
+
 
 🔁 Chu trình hoạt động cơ bản
 Khởi động hệ thống:
