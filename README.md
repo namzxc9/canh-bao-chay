@@ -79,3 +79,5 @@ ESP32 tiếp tục đo, gửi dữ liệu mỗi vài giây, hệ thống luôn h
 - Cảnh báo bằng giọng nói thông qua loa mini thay vì chỉ dùng âm thanh đơn.
 
 - Phân tích AI để lọc cảnh báo giả, dự đoán nguy cơ cháy dựa vào mô hình học máy.
+
+👨‍💻 Tác giả: Nguyễn Hoài Nam
